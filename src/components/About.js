@@ -12,18 +12,18 @@ export const About = () => {
 					<h3 className="who">Full-Stack Web, App and Blockchain Developer</h3>
 					<p className="about">
 						I'm currently pursuing my B.Tech in Mechanical Enginnering at Manipal Institute of Technology. I'm a completely self-taught
-						developer specialized full-stack development, blockchain(dapps) development and app and game development. Being from a core
-						engineering branch, I upskilled myself in the IT field by learning from Youtube, Udemy, Coursera and some ocassional guidance
-						from my seniors at college whom I'm greatly thankful to!
+						programmer interested in full-stack web development, blockchain(dapps) development, app development and game development.
+						Being from a core engineering branch, I upskilled myself in the IT field by learning from Youtube, Udemy, Coursera and some
+						ocassional guidance from my seniors at college whom I'm greatly thankful to!
 						<br />
 						<br />
 						<br />
-						Interested in taking up any project that challenges my skills in the field of IT, be it software development, design product
-						development, or something completely new and challenging!
+						I'm currently interested in taking up any project that challenges my skills and fosters my interests, be it software
+						development, design, product development, or something completely new!
 						<br />
 						<br />
 						<br />
-						My hobbies are playing tennis, video games, electronics and coding of course!
+						My hobbies are playing tennis, video games, messing with electronics and coding of course!
 					</p>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 const Skills = () => {
 	return (
 		<div>
-			<h1 id="skills" className="subHeading">
+			<h1 id="Skills" className="subHeading">
 				Skills
 			</h1>
 			<div className="accordion accordion-flush" id="accordionFlushExample">

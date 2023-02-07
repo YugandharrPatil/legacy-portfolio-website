@@ -2,7 +2,7 @@ const Navbar = () => {
 	return (
 		<div>
 			<nav className="navbar navbar-expand-md">
-				<a className="navbar-brand" href="#hi">
+				<a className="navbar-brand">
 					<img className="signature" src={`${process.env.PUBLIC_URL}/images/signature.jpeg`} alt="" />
 				</a>
 				<button
@@ -19,17 +19,17 @@ const Navbar = () => {
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav ms-auto">
 						<li className="nav-item me-4">
-							<a className="nav-link" href="#hi">
-								Home
+							<a className="nav-link" href="#Skills">
+								My Skills
 							</a>
 						</li>
 						<li className="nav-item me-4">
-							<a className="nav-link" href="#skills">
-								My Portfolio
+							<a className="nav-link" href="#Projects">
+								Projects
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#hi">
+							<a className="nav-link" href="#Contact">
 								Contact Me
 							</a>
 						</li>
