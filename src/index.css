@@ -1,13 +1,412 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	color: #f7f7f7;
+	background-color: #1a1a1a;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.subHeading {
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	font-size: 2.2rem;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.divider {
+	border: 1px dotted red;
+	width: 20%;
+	margin: auto;
+	height: 20px;
+	border-width: 0;
+}
+
+/* Navbar */
+
+.signature {
+	width: 80px;
+}
+
+.navbar a {
+	font-family: "Roboto", sans-serif;
+	color: #767676;
+	letter-spacing: 0.01rem;
+	text-transform: uppercase;
+}
+
+.navbar a:hover {
+	color: #a9a9a9;
+}
+
+/* About */
+
+.leftcol {
+	margin-top: 200px;
+}
+
+.name {
+	font-weight: 900;
+	font-family: "Playfair Display", serif;
+	font-size: 5rem;
+	text-align: left;
+	letter-spacing: 0.05rem;
+}
+
+.who {
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-size: 0.9rem;
+	word-spacing: 0.05rem;
+	letter-spacing: 0.1rem;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.about {
+	text-align: justify;
+	margin-top: 80px;
+	font-size: 1.2rem;
+}
+
+.myPhoto {
+	width: 550px;
+	box-shadow: 5px 5px 20px 2px black;
+}
+
+/* Skills */
+
+.accordion-button {
+	font-family: sans-serif;
+	background-color: #111111;
+	color: #f7f7f7;
+}
+
+.accordion-button:hover {
+	background-color: #333333;
+}
+
+/*active accordion color*/
+.accordion-button:not(.collapsed) {
+	background-color: black;
+	color: #f7f7f7;
+}
+
+/*remove blue outline that appears by default*/
+.accordion-button:focus {
+	outline: 0 !important;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-button:after {
+	background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f7f7f7'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-body {
+	background-color: #111111;
+}
+
+.accordionSubheading {
+	text-align: center;
+	color: #f7f7f7;
+	font-size: 1.8rem;
+}
+
+.cardContainer {
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+	/* flex-wrap: wrap; */
+}
+
+.skillCard {
+	height: 200px;
+	width: 160px;
+	color: #f7f7f7;
+	background-color: rgb(37, 37, 37);
+	border-radius: 10px;
+	border: 1px solid black;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.skillIcon {
+	width: 80px;
+}
+
+.skillName {
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 1.2rem;
+}
+
+.stars {
+	margin-top: 15px;
+}
+
+.fillStar {
+	color: #c0c0c0;
+}
+
+.noFillStar {
+	color: #333333;
+}
+
+/* Projects */
+
+.carouselImage {
+	width: 70%;
+}
+
+.projectDescription {
+	text-align: center;
+}
+
+/* Contact */
+
+.contact h5 {
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.contact h6 {
+	font-size: 1.1rem;
+}
+
+.contact a {
+	text-decoration: underline;
+	color: #f7f7f7;
+}
+
+/* Footer */
+footer {
+	background-color: #111111;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+}
+
+.socials {
+	width: 130px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.socials a {
+	color: white;
+}
+
+.socials a:nth-of-type(1):hover {
+	color: #1da1f2;
+}
+.socials a:nth-of-type(2):hover {
+	color: #d62976;
+}
+.socials a:nth-of-type(3):hover {
+	color: #0072b1;
+}
+.socials a:nth-of-type(4):hover {
+	color: #bf40bf;
+}
+
+/* Media Queries */
+
+@media (max-width: 1400px) {
+	.myPhoto {
+		width: 100%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.skillCard {
+		height: 150px;
+		width: 120px;
+		color: #f7f7f7;
+		background-color: rgb(37, 37, 37);
+		border-radius: 10px;
+		border: 1px solid black;
+		padding: 25px 0;
+		text-align: center;
+	}
+
+	.skillIcon {
+		width: 50px;
+	}
+
+	.skillName {
+		margin-top: 8px;
+		font-family: sans-serif;
+		font-size: 1.1rem;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.stars {
+		margin-top: 8px;
+	}
+
+	.fa-star {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 992px) {
+	/* about */
+	.myPhoto {
+		width: 300px;
+	}
+
+	.leftcol {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	.name {
+		font-size: 3rem;
+		text-align: center;
+	}
+
+	.who {
+		text-align: center;
+	}
+
+	.about {
+		font-size: 1rem;
+		margin-top: 60px;
+	}
+
+	/* skills */
+
+	.skillCard {
+		height: 120px;
+		width: 100px;
+		color: #f7f7f7;
+		background-color: rgb(37, 37, 37);
+		border-radius: 5px;
+		border: 1px solid black;
+		padding: 20px 0 5px 0;
+		text-align: center;
+	}
+
+	.skillIcon {
+		width: 40px;
+	}
+
+	.skillName {
+		margin-top: 8px;
+		font-family: sans-serif;
+		font-size: 0.9rem;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.stars {
+		margin-top: 0px;
+	}
+
+	.fa-star {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 768px) {
+	.accordionSubheading {
+		text-align: center;
+		color: #f7f7f7;
+		font-size: 1.8rem;
+	}
+
+	.cardContainer {
+		display: flex;
+		justify-content: space-around;
+		margin: auto;
+		flex-wrap: wrap;
+	}
+
+	.skillCard {
+		height: 120px;
+		width: 100px;
+		color: #f7f7f7;
+		background-color: rgb(37, 37, 37);
+		border-radius: 5px;
+		border: 1px solid black;
+		padding: 20px 0 5px 0;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.skillIcon {
+		width: 40px;
+	}
+
+	.skillName {
+		margin-top: 8px;
+		font-family: sans-serif;
+		font-size: 0.9rem;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.stars {
+		margin-top: 0px;
+	}
+
+	.fa-star {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 576px) {
+	.subHeading {
+		font-size: 1.8rem;
+	}
+
+	.accordionSubheading {
+		text-align: center;
+		color: #f7f7f7;
+		font-size: 1.8rem;
+	}
+
+	.cardContainer {
+		display: flex;
+		justify-content: space-around;
+		margin: auto;
+		flex-wrap: wrap;
+	}
+
+	.skillCard {
+		height: 120px;
+		width: 100px;
+		color: #f7f7f7;
+		background-color: rgb(37, 37, 37);
+		border-radius: 5px;
+		border: 1px solid black;
+		padding: 20px 0 5px 0;
+		text-align: center;
+		margin: 20px 10px 0 10px;
+	}
+
+	.skillIcon {
+		width: 40px;
+	}
+
+	.skillName {
+		margin-top: 8px;
+		font-family: sans-serif;
+		font-size: 0.9rem;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.stars {
+		margin-top: 0px;
+	}
+
+	.fa-star {
+		font-size: 12px;
+	}
 }
