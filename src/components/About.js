@@ -11,21 +11,18 @@ export const About = () => {
 					</h1>
 					<h3 className="who">Full-Stack Web, App and Blockchain Developer</h3>
 					<p className="about">
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam neque eius unde dignissimos perspiciatis suscipit, odio odit
-						harum nulla reprehenderit amet explicabo tenetur ad aliquid molestias quod mollitia veritatis exercitationem laudantium iusto
-						eveniet perferendis laboriosam! Nam quibusdam dolores, veniam cum voluptates nesciunt fuga aperiam incidunt iure corporis,
-						deserunt necessitatibus, dolorem minus! Mollitia, quas neque. Illo voluptatibus neque consequuntur excepturi voluptatum facere
-						temporibus doloribus similique quos perspiciatis, voluptas iste nostrum eius.
+						I'm currently pursuing my BTech in Mechanical Enginnering at Manipal Institute of Technology. Self-taught developer
+						specialized full-stack development, blockchain(dapps) development and app and game development. Being from a core engineering
+						branch, I upskilled myself in the IT field by learning from Youtube, Udemy, Coursea and ocassional guidance from my seniors at
+						college.
 						<br />
 						<br />
 						<br />
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, velit odio perferendis nam harum odit blanditiis
-						exercitationem obcaecati numquam veritatis, alias eaque repellendus. Architecto reprehenderit quisquam quis fuga nostrum esse
-						consectetur nihil? Laudantium blanditiis eligendi doloremque deleniti possimus eveniet. Illum!
+						Interested in anything challenging in the field of IT, be it software development, Sass product development etc.
 						<br />
 						<br />
 						<br />
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio praesentium excepturi vero dicta recusandae ipsam.
+						My hobbies are playing tennis, video games, electronics and coding of course!
 					</p>
 				</div>
 			</div>
