@@ -163,6 +163,7 @@ body {
 
 .projectDescription {
 	text-align: center;
+	font-size: 1rem;
 }
 
 /* Contact */
@@ -408,5 +409,23 @@ footer {
 
 	.fa-star {
 		font-size: 12px;
+	}
+
+	/* Projects */
+
+	.projectDescription {
+		text-align: center;
+		font-size: 0.6rem;
+	}
+
+	/* Contact */
+
+	.contact h5 {
+		font-size: 0.8rem;
+		line-height: 1.5;
+	}
+
+	.contact h6 {
+		font-size: 1rem;
 	}
 }
